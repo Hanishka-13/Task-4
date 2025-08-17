@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar --> 
+  <header>
+    <nav class="navbar">
+      <div class="logo">🚀 Hanishka</div>
+      <ul class="nav-links">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="todo.html" class="active">To-Do App</a></li>
+        <li><a href="products.html">Products</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- To-Do App -->
+  <section class="todo-section">
+    <h2>📝To-Do App</h2>
+    <div class="todo-container">
+      <input type="text" id="taskInput" placeholder="Enter your task...">
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+  </section>
+
+  <script src="todo.js"></script>
+</body>
+</html>
